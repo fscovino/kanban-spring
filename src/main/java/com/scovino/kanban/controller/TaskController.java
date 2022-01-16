@@ -18,6 +18,7 @@ import com.scovino.kanban.model.Task;
 import com.scovino.kanban.service.TaskService;
 
 @Controller
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/tasks/")
 public class TaskController {
 
@@ -37,7 +38,6 @@ public class TaskController {
 	
 	
 	// Retrieve All Tasks
-	@CrossOrigin(origins = "http://localhost:3000")
 	@GetMapping()
 	public ResponseEntity<List<Task>> getAllTasks() {
 		return new ResponseEntity<List<Task>>(taskService.getAllTasks(), HttpStatus.OK);
