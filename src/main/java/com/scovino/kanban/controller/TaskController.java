@@ -18,7 +18,6 @@ import com.scovino.kanban.model.Task;
 import com.scovino.kanban.service.TaskService;
 
 @Controller
-@CrossOrigin(origins = "http://localhost:3000/")
 @RequestMapping("/api/tasks/")
 public class TaskController {
 
