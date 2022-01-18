@@ -38,7 +38,6 @@ public class TaskController {
 	
 	// Retrieve All Tasks
 	@GetMapping()
-	@CrossOrigin(origins = "http://localhost:3000/")
 	public ResponseEntity<List<Task>> getAllTasks() {
 		return new ResponseEntity<List<Task>>(taskService.getAllTasks(), HttpStatus.OK);
 	}
