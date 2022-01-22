@@ -10,7 +10,7 @@ Version 1.0 - *Created on January, 2021*
 
 * Frontend (React JS) deployed on Netlify - https://kanban-spring.netlify.app/
 * Backend (Java Spring Boot) deployed on Heroku
-* Database (MySQL) hosted onHeroku 
+* Database (MySQL) hosted on Heroku 
 
 ## Dependencies
 
